@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   } else if (data.license === 'Apache') {
     badge = badges[2]
   }
-  return `
+  return `${badge}
   # ${data.title}
   ${data.description}
   ***
@@ -21,17 +21,17 @@ function generateMarkdown(data) {
   [Contribution Instructions](#contribution-instructions)
   [Testing Procedure](#testing-procedure)
   [Questions](#questions)
-  ##Installations Instructions
+  ## Installations Instructions
   ${data.installation}
-  ##Usage Description
+  ## Usage Description
   ${data.usage}
-  ##License Information
+  ## License Information
   ${data.license}
-  ##Contribution Instructions
+  ## Contribution Instructions
   ${data.contributions}
-  ##Testing Procedures
+  ## Testing Procedures
   ${data.test}
-  ##Questions
+  ## Questions
   If you have any questions, you can reach me at ${data.email} and please follow me on GitHub at https://github.com/${data.username}`;
 }
 
