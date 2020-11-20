@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   } else if (data.license === 'Apache') {
     badge = badges[2]
   }
-  return `${badge}
+  return `
   # ${data.title}
   ${data.description}
   ***
