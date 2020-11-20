@@ -12,5 +12,14 @@
     "axios": "^0.21.0",
     "badges-maker": "0.0.1",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicouva/GoodReadME-GeneratorHW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicouva/GoodReadME-GeneratorHW/issues"
+  },
+  "homepage": "https://github.com/nicouva/GoodReadME-GeneratorHW#readme"
 }
