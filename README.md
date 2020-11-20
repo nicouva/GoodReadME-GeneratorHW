@@ -1,6 +1,6 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  # Read Me
-  Read Me Generator
+
+  # ReadMe Generator
+  A Generator that creates ReadMe's.
   ***
   ## Table of Contents
   [Installation Instructions](#installation-instructions)
@@ -9,13 +9,13 @@
   [Testing Procedure](#testing-procedure)
   [Questions](#questions)
   ##Installations Instructions
-  Please clone the repo. Be sure to npm install on your terminal. npm init
+  node index.js
   ##Usage Description
-  Please run node index.js
+  Follow the prompts in node index.js
   ##License Information
   MIT
   ##Contribution Instructions
-  Please reach out for collaboration
+  Please reach out if interested in collaborating.
   ##Testing Procedures
   undefined
   ##Questions
